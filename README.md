@@ -8,11 +8,13 @@ In this project, I constructed 3 different models for IMDB movie review classifi
 
 **TP, FP, TN, FN**: True Positive (TP) is defined as the number of positive predictions made by the model that are correct; False Positive (FP) is defined as the number of positive predictions made by the model that are incorrect (i.e. the true labels are negative). True Negative (TN) and False Negative (FN) are defined in a similar way.
 
-**Accuracy**: It gives the overall reliability of the model in classifying for both positive and negative cases. It is calculated using the formula (TP+TN)/N, where N is the total predictions made.
++ **Accuracy**: It gives the overall reliability of the model in classifying for both positive and negative cases. It is calculated using the formula (TP+TN)/N, where N is the total predictions made.
 
-**Precision**: It reflects the model's success probability in making positive predictions. It is calculated using the formua TP/(TP+FP).
++ **Precision**: It reflects the model's success probability in making positive predictions. It is calculated using the formua TP/(TP+FP).
 
-**Recall**: It tells us how goot the model is at identifying the true positive cases. It is calculated using the formula TP/(TP+FN).
++ **Recall**: It tells us how goot the model is at identifying the true positive cases. It is calculated using the formula TP/(TP+FN).
+
++ **F1-score**: It accountds for both precision and recall. A F1-score is calculated as the harmonic mean: 2*(Precision*Recall)/(Precision+Recall)
 
 ### Results:
 
@@ -73,7 +75,7 @@ BERT, or Bidirectional Encoder Representations from Transformers, is a transform
 Based on the testing data, our BERT model yields an accuracy of 0.87. For positive reviews, it gives a precision of 0.86 and a recall of 0.88. However, the model still have a vast room for improvement because our model can only take 128 words at maximum, whereas the movie review texts can oftentimes be longer.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/59629686/209271660-bfa39bb1-97ae-4272-8e6f-6b001955898f.png" width=400>
+<img src="https://user-images.githubusercontent.com/59629686/209271660-bfa39bb1-97ae-4272-8e6f-6b001955898f.png" width=700>
 </div>
 
 
