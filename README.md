@@ -2,7 +2,7 @@
 Tags: NLP, Sentiment Analysis, Supervised Machine Learning, Neural Network
 
 ### Overview:
-In this project, I constructed 3 different models for IMDB movie review classification using **SVM**, **XG-Boost** and **BERT**. Details about model parameters can be found in the "Parameters.txt" file. Some metrics, including accuracy, precision, recall and f1-score, were used to evaluate the reliability of our models when making prediction based on testing data. In addition to modeling, some simple visualizations were also done to investigate the pattern of word usages in positive and negative reviews. In this README.txt, I will mainly focus on the models I built and their results. More plots can be found in "text_classification.ipynb".
+In this project, I constructed 3 different models for IMDB movie review classification using **SVM**, **XG-Boost** and **BERT**. Some metrics, including accuracy, precision, recall and f1-score, were used to evaluate the reliability of our models when making prediction based on testing data. In addition to modeling, some simple visualizations were also done to investigate the pattern of word usages in positive and negative reviews. In this README.txt, I will mainly focus on the models I built and their results. More plots can be found in "text_classification.ipynb".
 
 ### Terminology:
 
