@@ -16,14 +16,17 @@ In this project, I constructed 3 different models for IMDB movie review classifi
 
 ### Results:
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/59629686/209265761-49d890e4-8757-41af-a8b9-fb80f6bb0aee.png" width=300 height=200>
-</div>
+
                          
 
 
 **SVM**
-                                                                                                     
+                
+<div align="center">
+<img src="https://user-images.githubusercontent.com/59629686/209265761-49d890e4-8757-41af-a8b9-fb80f6bb0aee.png" width=400 height=300>
+</div>
+                      
+                       
 Support Vector Machine is a commonly used supervised learning technique in classification problems. It classifies data into different clusters by finding a hyperplane that best divides the points that belong to different classes (i.e. maximizes the total distance between two classes).
 
 Using SVM, the model achieved an accuracy of 0.89. The precision and recall for positive reviews are 0.88 and 0.90, respectively. For negative reviews, precision and recall are 0.9 and 0.88. The f1-scores for both classes are 0.89.
@@ -37,13 +40,13 @@ Using SVM, the model achieved an accuracy of 0.89. The precision and recall for 
 ```
 
 
+**XG-Boost**
+                     
 <div align="center">
 <img src="https://user-images.githubusercontent.com/59629686/209266265-f8680243-2ebc-4944-8141-cfa29400fc1f.png" width=400>
 </div>
-
-
-**XG-Boost**
-
+                       
+                   
 XG-Boost is a popular ensembling method, which combines a series of gradient-boosted decision trees and apply majority voting principle to find the most likely label for the input data. It has been a very popular algorithm in solving regression and classification problems in the real world.
 
 After adjusting for the parameters using grid search, the 'best' XG-Boost model is able to achieve an accuracy of 0.87. For positive reviews, it yields a precision of 0.86 and recall of 0.88. For negative reviews, it yields a precision of 0.88 and 0.86. The f1-score is 0.87.
@@ -58,14 +61,20 @@ After adjusting for the parameters using grid search, the 'best' XG-Boost model 
 ```
 
 
+**BERT**
+                
+<div align="center">
+<img src="https://user-images.githubusercontent.com/59629686/209269090-df6e1974-6973-46d4-86d7-79bbf2e1841f.png" width=400>
+</div>
+                   
+                    
+BERT, or Bidirectional Encoder Representations from Transformers, is a transformer-based deep learning model developed by Google. BERT is a very powerful tool for natural language processing in that it can be trained to understand the meaning of a sentence by establishing a proper context. The model is pre-trained by Google on two tasks: language modeling (i.e. predicting for masked texts from their context) and next sentence prediction (i.e. to tell if the next sentence given is proper in the context of the first sentence). The original model was then fine-tuned (re-trained) based on our training data to be able to make predictions for movie reviews. 
 
-
+Based on the testing data, our BERT model yields an accuracy of 0.87. For positive reviews, it gives a precision of 0.86 and a recall of 0.88. However, the model still have a vast room for improvement because our model can only take 128 words at maximum, whereas the movie review texts can oftentimes be longer.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/59629686/209266433-c8fb9302-76c9-468f-8863-15b57fbbb232.png" width=400>
+<img src="https://user-images.githubusercontent.com/59629686/209271660-bfa39bb1-97ae-4272-8e6f-6b001955898f.png" width=400>
 </div>
 
-**BERT**
 
-BERT, or Bidirectional Encoder Representations from Transformers, is a transformer-based 
 
