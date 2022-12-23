@@ -4,7 +4,7 @@ Tags: NLP, Sentiment Analysis, Supervised Machine Learning, Neural Network
 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/59629686/209281715-dc97cf20-a270-4181-9732-6403458b8614.png" width=1200 height=600>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png" width=1200 height=600>
 </div>
 
 
